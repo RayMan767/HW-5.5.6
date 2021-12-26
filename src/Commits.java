@@ -16,4 +16,15 @@ public class Commits {
 
         return rezult;
     }
+
+    public int getMin() {
+        int rezult = nums[0];
+
+        for (int i = 1; i < nums.length; i++) {
+            if (nums[i] < rezult)
+                rezult = nums[i];
+        }
+
+        return rezult;
+    }
 }
