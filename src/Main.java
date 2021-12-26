@@ -4,6 +4,8 @@ public class Main {
 
         Commits commits = new Commits(nums);
 
-        System.out.println(commits.getMax());
+        System.out.println("Maximalnoe cislo: " +  commits.getMax());
+
+        System.out.println("Minimalnoe cislo: " + commits.getMin());
     }
 }
